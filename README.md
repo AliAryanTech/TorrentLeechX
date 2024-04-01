@@ -1,25 +1,25 @@
-<p align="center"> <a href="https://github.com/XcodersHub/TorrentLeechX" target="_blank"> <img src="https://shields.io/badge/%F0%9F%A7%B2Torrent--LEECH--GDRIVE_Telegram_Leech_BOT%F0%9F%A4%96-red?logo=&style=for-the-badge" alt="TorrentLeechX" width="860" height="85"/>
+<p align="center"> <a href="https://github.com/KangersHub/TorrentLeechX" target="_blank"> <img src="https://shields.io/badge/%F0%9F%A7%B2Torrent--LEECH--GDRIVE_Telegram_Leech_BOT%F0%9F%A4%96-red?logo=&style=for-the-badge" alt="TorrentLeechX" width="860" height="85"/>
 
-# for support join [here](https://telegram.dog/XCODERSHUB)
+# for support join [here](https://telegram.dog/KangersHub)
 # working example group [Leech Here](https://t.me/joinchat/ixcxUlpCInJiNmNl)
-# For Any Issues/Imrovements or Discussions [go here](https://github.com/XcodersHub/TorrentLeech-Gdrive/issues) or [here](https://github.com/XcodersHub/TorrentLeech-Gdrive/discussions) 
+# For Any Issues/Imrovements or Discussions [go here](https://github.com/KangersHub/TorrentLeech-Gdrive/issues) or [here](https://github.com/KangersHub/TorrentLeech-Gdrive/discussions) 
 # Please Leave A star And Fork this Repo and Follow my Github acc....
 # 🤖Telegram Torrent and Direct links Leecher 🔥
 
 ---
 
 # TorrentLeechX (a modified fork of TorrentLeechGdrive with Extra Features....)
-![GitHub Repo stars](https://img.shields.io/github/stars/XcodersHub/TorrentLeechX?color=orange&style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/XcodersHub/TorrentLeechX?color=green&style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/XcodersHub/TorrentLeechX?color=red&style=for-the-badge)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/XcodersHub/TorrentLeechX?color=black&style=for-the-badge)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/XcodersHub/TorrentLeechX?color=yellow&style=for-the-badge)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/XcodersHub/TorrentLeechX?color=violet&style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/XcodersHub/TorrentLeechX?color=teal&style=for-the-badge)
-![GitHub repo size](https://img.shields.io/github/repo-size/XcodersHub/TorrentLeechX?color=white&style=for-the-badge)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/XcodersHub/TorrentLeechX?color=blue&style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/KangersHub/TorrentLeechX?color=orange&style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/KangersHub/TorrentLeechX?color=green&style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/KangersHub/TorrentLeechX?color=red&style=for-the-badge)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/KangersHub/TorrentLeechX?color=black&style=for-the-badge)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/KangersHub/TorrentLeechX?color=yellow&style=for-the-badge)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/KangersHub/TorrentLeechX?color=violet&style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/KangersHub/TorrentLeechX?color=teal&style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/KangersHub/TorrentLeechX?color=white&style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/KangersHub/TorrentLeechX?color=blue&style=for-the-badge)
 
-<p align="center"> <a href="https://t.me/XcodersHub" target="_blank"> <img src="https://shields.io/badge/Support--Group-Join_Now-navy?logo=&style=for-the-badge" alt="support group" width="400" height="45"/>
+<p align="center"> <a href="https://t.me/KangersHub" target="_blank"> <img src="https://shields.io/badge/Support--Group-Join_Now-navy?logo=&style=for-the-badge" alt="support group" width="400" height="45"/>
 
 ---
 
@@ -55,6 +55,7 @@
     ✓ Added Custom ToggleDoc and ToggleVid Cmd
     ✓ Added Custom Rename Command via vars
     ✓ Added direct rclone.conf url in vars
+    ✓ Added gdtot and appdrive cloning support
     
 # TO-DO
 -   ~Gdrive file clonning using Gclone~ `DONE ✓`
@@ -67,7 +68,7 @@
 | How to deploy and Install ?!                                                                                                                 | Name                        | Type          | Lowest-Price Plan                     | Deploy                                                  |
 | --------------------------------------------------------------------------------------------------------------- | -----------------           | ------------- | ------------------------------------- | ------------------------------------------------------- |
 | 🖥VPS                                                                  | Virtual Private Server      | VPS           | [google it](https://www.google.com/search?q=vps)                             | [see guide](vps-deployment.md)                               |
-| ![Heroku](https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku)                                                            | Heroku                      | Container     | Free, 1 CPU, 512 MB RAM,375gb Storage               | [see guide](heroku-deployment.md)                |
+| ![Heroku](https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku)                                                            | Heroku                      | Container     | Free, 1 CPU, 512 MB RAM,500.42GB Storage               | [see guide](heroku-deployment.md)                |
 
 ---
 
@@ -100,6 +101,7 @@ Optional Configuration Variables | Descripion
 | `CHUNK_SIZE` | dev default value is `128`
 | `MAX_MESSAGE_LENGTH` | dev
 | `PROCESS_MAX_TIMEOUT` | dev
+| `SUDO_USERS` | Sudo User's id separated by space
 | `ARIA_TWO_STARTED_PORT` | should be an integer. The port on which aria2c daemon must start, and keep listening ..default is port `6800`
 | `EDIT_SLEEP_TIME_OUT` | should be an integer. Number of seconds to wait before editing a message.
 | `MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START` | should be an integer. Number of seconds to wait before cancelling a torrent.
@@ -134,7 +136,12 @@ Optional Configuration Variables | Descripion
 | `RCLONE_CONF_URL` | set direct  url for rclone.conf
 | `SPEEDTEST` | set custom SpeedtestCommand
 | `TSEARCH_COMMAND` | set custom command for torrent search help
-
+| `GDTOT_CRYPT` | gdtot crypt cookies for gdtot cloning
+| `APPDRIVE_EMAIL` | appdrive email id for appdrive cloning
+| `APPDRIVE_PASS` | appdrive password
+| `APPDRIVE_SHARED_DRIVE_ID` | drive_id of the shared drive for appdrive.
+| `APPDRIVE_FOLDER_ID` | gdrive folder_id for appdrive
+| `CUSTOM_FILE_CAPTION` | can set default custom formatting to tg file captions(use `{file_name}` for file name (eg. CUSTOM_FILE_CAPTION = ```"<b>Uploaded:</b>\n<code>{file_name}</code>"```
 ---
 
 
@@ -187,6 +194,9 @@ client_secret =
 | `/tshelp` | get help for torrent search module
 | `/speedtest` | check speedtest of the host
 | `/help`| send help
+| `/mediainfo` | get mediainfo of a file using direct download link or it's local path on bot's server
+| `/tgdl` | download a telegram file to bot's server
+| `/gupload` | upload a file from bot's server to gdrive
 ---
 ## END OF Variable Explanations 👆
 
@@ -210,10 +220,13 @@ client_secret =
     garchive - leech any torrent/magnet/direct-download link to Cloud and Upload It as .tar.gz acrhive...
     gextract - This will unarchive file and upload to cloud.
     getsize - This will give you total size of your destination folder in cloud.
+	mediainfo - Get mediainfo from link or local path.
+ 	tgdl - download a telegram file to bot's local storage.
+ 	gupload - upload a file from bot's local storage to gdrive.
     rename - rename the file 
     help - send help 
     tshelp - get help for torrent search module
-|   speedtest - check speedtest of the host
+    speedtest - check speedtest of the host
     status - show bot stats and concurrent downloads
     renewme - clear all downloads (admin only)⚠️
     log - This will send you a txt file of the logs.(admin only)⚠️
@@ -225,7 +238,7 @@ client_secret =
 
 
 ## Credits, and Thanks to
-* [XcodersHub](https://github.com/XcodersHub) for Modding 🙄
+* [KangersHub](https://github.com/KangersHub) for Modding 🙄
 * [GautamKumar](https://github.com/gautamajay52/TorrentLeech-Gdrive) 😬
 * [SpEcHiDe](https://github.com/SpEcHiDe/PublicLeech) for his wonderful code😚
 * [Rclone Team](https://rclone.org) for theirs awesome tool☁️
